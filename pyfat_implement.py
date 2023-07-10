@@ -214,8 +214,7 @@ if __name__ == '__main__':
         from tencentcloud.common.exception.tencent_cloud_sdk_exception import TencentCloudSDKException
         from tencentcloud.iai.v20200303 import iai_client, models
         try:
-            cred = credential.Credential("AKID40hBSVJxPbcQ1OcqtSnHcmiQu9BzZZNw",
-                                         "PmrlRxFLK6jGagWBcptlRyJRWQ8mFVYR")
+            cred = credential.Credential(“你的api秘钥”)
             httpProfile = HttpProfile()
             httpProfile.endpoint = "iai.tencentcloudapi.com"
 
